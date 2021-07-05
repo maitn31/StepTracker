@@ -9,7 +9,7 @@
     android:background="@drawable/gradient_color"
     android:foregroundTint="#FFFFFF"
     android:hapticFeedbackEnabled="false"
-    tools:context=".fragments.TodayFragment">
+    tools:context="metropolia.renmai.steptracker.fragments.TodayFragment">
 
     <TextView
         android:id="@+id/tvHeader1"

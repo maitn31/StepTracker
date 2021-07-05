@@ -8,18 +8,18 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:534333492380:android:4362bff323f744eee47159",
+        "mobilesdk_app_id": "1:534333492380:android:908505d7aed3c1d2e47159",
         "android_client_info": {
-          "package_name": "com.example.steptracker"
+          "package_name": "metropolia.renmai.steptracker"
         }
       },
       "oauth_client": [
         {
-          "client_id": "534333492380-vrqqfq53hog017d50nddar7gqhv1d3sp.apps.googleusercontent.com",
+          "client_id": "534333492380-mbe8ba5838s7qnv81uqgte8cmk41iehk.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.example.steptracker",
-            "certificate_hash": "1a7d7eaee520233974ed78a91c46c951b18f73e2"
+            "package_name": "metropolia.renmai.steptracker",
+            "certificate_hash": "bda567913ebb4f823d24956873aa837ad601eeac"
           }
         },
         {
@@ -36,7 +36,7 @@
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "534333492380-otivktaiedje5peds4aqo74v6889ebfl.apps.googleusercontent.com",
+              "client_id": "534333492380-163qq0hl74sui67kgbinj0vjce2surbd.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

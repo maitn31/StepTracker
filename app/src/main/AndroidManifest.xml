@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.steptracker">
+    package="metropolia.renmai.steptracker">
 
     <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
     <uses-permission android:name="android.permission.INTERNET" />
@@ -18,23 +18,23 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/steptracker"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@drawable/steptracker"
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
-        <service android:name=".ForegroundService" />
+        <service android:name="metropolia.renmai.steptracker.ForegroundService" />
 
         <activity
-            android:name=".MapActivity"
+            android:name="metropolia.renmai.steptracker.MapActivity"
             android:label="@string/title_activity_map"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".BmiActivity"
+            android:name="metropolia.renmai.steptracker.BmiActivity"
             android:label="@string/title_activity_bmi"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".MainActivity">
+        <activity android:name="metropolia.renmai.steptracker.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
