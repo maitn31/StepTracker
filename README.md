@@ -43,6 +43,3 @@ _An android app is built mainly for someone who keeps moving all the day and wan
 * Have AR related functionality
 * Map
 * GPS
-## Authors
-1. [Vy Nguyen](https://github.com/vynmetropolia)
-2. [Nhan Mai](https://github.com/RenMai)
